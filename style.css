@@ -68,9 +68,34 @@ header ul li a {
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
+    border-bottom: #ea1616 2px solid;
 
 }
 
+.navpre{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    border-bottom: #901403 2px solid;
+}
+.navwhey{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    border-bottom: #ea1616 2px solid;
+}
+.navcrea{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    border-bottom: #6B3FB2 2px solid;
+}
 .content {
     position: relative;
     width: 100%;
@@ -136,6 +161,7 @@ header ul li a {
     font-size: 1.2em;
     width: 700px;
 }
+
 
 .content .textBox a {
     display: inline-block;
@@ -275,11 +301,12 @@ header ul li a {
 }
 
 .thumbPay{
+    transform: translateY(00px);
     display: flex;
     flex-direction: row;
     background-color: #6B3FB2;
     padding: 0px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 0px;
     border-radius: 20px 20px 20px 20px;
     width: 800px;
@@ -289,11 +316,12 @@ header ul li a {
     align-content: center; 
 }
 .thumbPaypre{
+    transform: translateY(00px);
     display: flex;
     flex-direction: row;
     background-color: #901403;
     padding: 0px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 0px;
     border-radius: 20px 20px 20px 20px;
     width: 800px;
@@ -304,11 +332,12 @@ header ul li a {
 }
 
 .thumbPaywhey{
+    transform: translateY(00px);
     display: flex;
     flex-direction: row;
     background-color: #ea1616;
     padding: 0px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 0px;
     border-radius: 20px 20px 20px 20px;
     width: 800px;
@@ -342,15 +371,18 @@ header ul li a {
     color: #13fd4e;
     text-align: end;
     font-weight:900;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .textpays{
     flex-direction: row;
     width: auto;
     height: auto;
+
 }
 
 .thumbp{
-    padding-top: 30px;
+    padding-top: 0px;
+    transform: translateY(50px);
 }
+
