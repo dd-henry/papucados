@@ -202,6 +202,11 @@ header ul li a {
     width: 300px;
 }
 
+.thumb li img:hover{
+    transform: translateY(-15px);
+    transition: 200ms;
+}
+
 .thumb li {
     list-style: none;
     display: inline-block;
@@ -210,9 +215,6 @@ header ul li a {
     transition: 0.5s;
 }
 
-.thumb li:hover {
-    transform: translateY(-15px);
-}
 
 
 .thumb li img {
